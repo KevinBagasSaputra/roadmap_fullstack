@@ -1,0 +1,147 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Navbar START */
+nav{
+    width: 100%;
+    position: fixed;
+
+}
+
+nav .container{
+    background-color: #0F172A;
+
+}
+
+nav .container ul{
+    padding: 20px;
+    text-decoration: none;    
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav .container ul li{
+    list-style-type: none;
+}
+
+nav .container ul li .judul{
+    color: white;
+    font-weight: 700;
+}
+
+nav .container ul li a{
+    color: white;
+    text-decoration: none;
+
+    padding: 10px;
+}nav .container ul li a:hover{
+    color: white;
+    text-decoration: underline white;
+    text-underline-offset: 5px;
+}
+/* Navbar END */
+
+/* Hero START */
+.hero{
+    width: 100%;
+}
+
+.hero .container{
+    background-color: black;
+}
+
+.hero .container img{
+    min-width: 100%;
+
+    object-fit:fill;
+    
+    max-width: 100%;
+    max-height: 700px;
+    
+
+}
+/* Hero END */
+
+/* Agenda START */
+.agenda{
+    width: 100%;
+    background-color: #3945BA;
+
+}
+
+.agenda .container{ 
+    padding: 40px;
+}
+
+.agenda .container ul{
+    padding: 20px;
+}
+
+.agenda .container ul h2{
+    color: white;
+
+}
+
+.agenda .container ul a{
+    color: white;
+}
+
+.agenda .container ul a li{
+
+}
+
+
+
+
+
+/* Agenda END */
+
+
+
+/* Internet START */
+div a{
+    text-decoration: none;
+}
+.materi{
+    /* background-color: black; */
+    background-color: #7E89FD;
+    box-shadow: 0 0 10px 1px;
+    margin: 20px;
+
+}
+
+
+.materi a li p{
+    width: 100%;
+
+    color: white;
+    background-color: darkorange;
+    
+    border-radius: 2px;
+    padding: 5px;
+
+}
+
+.materi ul a li{
+    /* background-color: #0F172A; */
+    background-color: #3945BA;
+    
+    
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+} .materi ul a:hover{
+    background-color: #303ca5;
+    font-weight: 700;
+    box-shadow: 0 0 100px 10px white;
+}
+/* Internet START */
