@@ -1,0 +1,237 @@
+/* Penemu Internet START */
+.penemu{
+    width: 100%;
+}
+
+.penemu .container{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.penemu .container img{
+    max-width: 40%;
+
+    min-width: 40%;
+}
+
+
+.text{
+    width: 100%;
+}
+
+.text .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .container .nama{
+    font-weight: 700;
+}
+
+.text  .gelar{
+    text-align: center;
+}
+/* Penemu Internet END */
+
+
+
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navbar START */
+nav{
+    width: 100%;
+    color: white;
+
+    /* position: fixed; */
+}
+
+nav .container{
+    background-color: #0F172A;
+}
+
+nav .container ul{
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav .container ul li{
+    list-style-type: none;
+}
+
+nav .container ul li .judul{
+    color: white;
+
+
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav .container ul li a{
+    color: white;
+
+    padding: 10px;
+    font-family: 700;
+    text-decoration: none;
+}
+nav .container ul li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+/* Navbar END */
+
+
+
+/* Hero START */
+.hero{
+    width: 100%;
+}
+
+.hero .container{
+    background-color: black;
+}
+
+.hero .container img{
+    min-width: 100%;
+
+    max-width: 100%;
+    max-height: 650px;
+
+    object-fit: fill;
+}
+/* Hero END */
+
+
+/* Internet START */
+.internet{
+    width: 100%;
+}
+
+.internet .container{
+    padding: 28px;
+}
+
+.internet .container h2{
+    background-color: darkorange;
+    width: 115px;
+}
+/* Internet END */
+
+
+/* Answer START */
+.answer{
+    width: 100%;
+}
+
+.answer .container{
+    padding: 20px;
+}
+
+.answer .container h2{
+    background-color: rgb(58, 160, 255);
+    width: 102px;
+}
+
+.answer .container ul{
+    padding: 20px;
+}
+
+/* SOAL NOMOR 1 START */
+.answer .container .apa_itu_internet{ /*Ciri Apa itu Internet*/
+    background-color: #78b2ff;
+    width: 167px;
+} .answer .container .penemu_internet{/*Ciri Penemu Internet*/
+    background-color: #78b2ff;
+    width: 220px;
+} .answer .container .ciri_internet{ /*Ciri Internet*/
+    background-color: #78b2ff;
+    width: 150px;
+} .answer .container .informasi_bergerak_diinternet{
+    background-color: #78b2ff;
+    width: 392px;
+}
+/* SOAL NOMOR 1 END */
+
+
+/* SOAL NOMOR 2 START */
+.answer .container .pengertian_http{
+    background-color: #78b2ff;
+    width: 153px;
+} .answer .container .ilustrasi_http{
+    min-width: 100%;
+
+    max-width: 60%;
+    max-height: 400px;
+
+    object-fit:fill ;
+} .answer .container .penemu_http{
+    background-color: #78b2ff;
+    width: 190px;
+
+} .answer .container .tim_berners_lee{
+    display: flex;
+    justify-content: left;
+
+} .answer .container  ul .gambar_penemu_http{
+    max-width: 50%;
+    max-height: 800px;
+
+    min-width: 50%;
+    
+} 
+
+/* Tim Berners Lee */
+.answer .container ul .text{
+    text-align: left;
+    padding: 5px;
+} .answer .container ul .text .nama{
+    text-align: center;
+    padding: 10px;
+}
+/* Tim Berners Lee */
+
+/* SOAL NOMOR 2 END */
+
+
+
+/* SOAL NOMOR 3 START */
+.domain_name{
+    background-color: #78b2ff;
+    width: 230px;
+}
+/* SOAL NOMOR 3 END */
+
+/* SOAL NOMOR 4 START */
+.hosting{
+    background-color: #78b2ff;
+    width: 175px;
+}
+/* SOAL NOMOR 4 END */
+
+/* SSOAL NOMOR 5 START */
+.dns{
+    background-color: #78b2ff;
+    width: 145px;
+}
+/* SSOAL NOMOR 5 END */
+
+/* SOAL NOMOR 6 START */
+.browser{
+    background-color: #78b2ff;
+    width: 298px;
+}
+/* SOAL NOMOR 6 END */
+/* Answer END */
+
+
+
+

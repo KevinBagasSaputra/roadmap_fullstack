@@ -112,6 +112,7 @@ div a{
     text-decoration: none;
 }
 .materi{
+    width: 100%;
     /* background-color: black; */
     background-color: #7E89FD;
     box-shadow: 0 0 10px 1px;
@@ -139,7 +140,12 @@ div a{
     color: white;
     border: 1px solid white;
     padding: 10px;
-} .materi ul a:hover{
+} .materi ul a li:hover{
+    background-color: #2330a3;
+} 
+
+
+.materi ul a:hover{
     background-color: #303ca5;
     font-weight: 700;
     box-shadow: 0 0 100px 10px white;
